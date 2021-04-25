@@ -1,5 +1,6 @@
 import { GlobalStyle } from './styles/global'
 import styled from 'styled-components'
+import { TransactionsTable } from './components/TransactionsTable'
 
 
 const Title = styled.h1`
@@ -12,6 +13,7 @@ export function App() {
     <div className="App">
       <h1>Hello World</h1>
       <Title>Hello World</Title>
+      <TransactionsTable></TransactionsTable>
       <GlobalStyle />
     </div>
   );
